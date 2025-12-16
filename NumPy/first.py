@@ -1,6 +1,9 @@
-import numpy as np
+import numpy as n
 
-print(np.__version__)
+print(n.__version__)
 
-arr = np.array([1, 2, 3, 4])
-print(arr)
+
+array = n.array([1, 2, 3])
+array *= 3
+
+print(type(array))
