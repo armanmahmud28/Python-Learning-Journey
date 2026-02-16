@@ -23,5 +23,6 @@ mydataset2 = {
     'duration': [30, 20, 10]
 }
 
-data2 = pd.DataFrame(mydataset2)
+data2 = pd.DataFrame(mydataset2, index=["day1", "day2", "day3"])
 print(data2)
+print(data2.loc["day2"])
